@@ -1,0 +1,24 @@
+{
+	"name": "weekly-menu",
+	"private": true,
+	"workspaces": [
+		"api",
+		"client",
+		"packages/*"
+	],
+	"scripts": {
+		"build": "turbo run build --filter=\"./packages/*\"",
+		"dev": "turbo run dev --parallel",
+		"lint": "turbo run lint --filter=\"./packages/*\"",
+		"prettier": "turbo run prettier --filter=\"./packages/*\"",
+		"format": "turbo run format --filter=\"./packages/*\"",
+		"tsc": "turbo run tsc --parallel --filter=\"./packages/*\"",
+		"remove:nm": "npkill -d . -D -x"
+	},
+	"devDependencies": {
+		"@types/node": "^22.7.2",
+		"npkill": "^0.12.2",
+		"turbo": "^2.1.2",
+		"typescript": "^5.6.2"
+	}
+}

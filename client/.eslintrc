@@ -1,0 +1,11 @@
+{
+	"extends": ["@weekly-menu/eslint-config", "next/core-web-vitals"],
+	"settings": {
+		"next": {
+			"rootDir": "client/"
+		}
+	},
+	"rules": {
+		"import/no-named-as-default": "off"
+	}
+}
