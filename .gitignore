@@ -36,7 +36,7 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for commiting if needed)
-.env*
+.env.*
 
 # next
 .vercel

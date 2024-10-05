@@ -16,6 +16,7 @@
 		"remove:nm": "npkill -d . -D -x"
 	},
 	"devDependencies": {
+		"@dotenvx/dotenvx": "^1.14.1",
 		"@types/node": "^22.7.2",
 		"npkill": "^0.12.2",
 		"turbo": "^2.1.2",
